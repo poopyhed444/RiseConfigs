@@ -19,7 +19,7 @@ Toggle_Derp_false
 BooleanSetting_Derp_Headless_false
 BooleanSetting_Derp_Random_false
 NumberSetting_Derp_Constant Speed_180.0
-Toggle_Aura_false
+Toggle_Aura_true
 NumberSetting_Aura_Rotation Range_9.0
 NumberSetting_Aura_Range_6.0
 NumberSetting_Aura_Min CPS_6.7
@@ -47,7 +47,7 @@ BooleanSetting_Aura_Invisibles_false
 BooleanSetting_Aura_Dead_true
 BooleanSetting_Aura_Only Sword_false
 BooleanSetting_Aura_Target ESP_true
-BooleanSetting_Aura_Display Range_true
+BooleanSetting_Aura_Display Range_false
 Toggle_Sprint_true
 Toggle_Fly_false
 ModeSetting_Fly_Fly Mode_Redesky LJ Predicted
