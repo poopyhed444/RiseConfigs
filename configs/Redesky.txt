@@ -7,12 +7,13 @@ BooleanSetting_Interface_Show Render Modules on List_true
 BooleanSetting_Interface_Smooth Hotbar_true
 BooleanSetting_Interface_Restore Defaults_false
 BooleanSetting_Interface_Transparent Chat_true
-BooleanSetting_Interface_Show Notifications on Toggle_true
+BooleanSetting_Interface_Show Notifications on Toggle_false
 BooleanSetting_Interface_Blocks Per Second Counter_true
 BooleanSetting_Interface_Keystrokes_true
 NumberSetting_Interface_KeystrokesX_4.5
 NumberSetting_Interface_KeystrokesY_53.5
 ModeSetting_Interface_Cape_Night
+BooleanSetting_Interface_Animate Logo_false
 Toggle_TabGUI_true
 Toggle_Derp_false
 BooleanSetting_Derp_Headless_false
@@ -23,6 +24,7 @@ NumberSetting_Aura_Rotation Range_9.0
 NumberSetting_Aura_Range_6.0
 NumberSetting_Aura_Min CPS_6.7
 NumberSetting_Aura_Max CPS_15.63
+BooleanSetting_Aura_Use 1.9+ combat delay_false
 NumberSetting_Aura_Delay_3.0
 NumberSetting_Aura_Max Rot_180.0
 NumberSetting_Aura_Min Rot_180.0
@@ -44,6 +46,7 @@ BooleanSetting_Aura_Teams_false
 BooleanSetting_Aura_Invisibles_false
 BooleanSetting_Aura_Dead_true
 BooleanSetting_Aura_Only Sword_false
+BooleanSetting_Aura_Target ESP_true
 BooleanSetting_Aura_Display Range_true
 Toggle_Sprint_true
 Toggle_Fly_false
@@ -82,7 +85,6 @@ NumberSetting_InvMove_Slow Down_1.0
 Toggle_Step_false
 Toggle_Phase_true
 ModeSetting_Phase_Mode_Redesky
-Toggle_Backtrack_false
 Toggle_TPAura_false
 NumberSetting_TPAura_CPS_1.0
 NumberSetting_TPAura_Range_26.6
@@ -103,10 +105,10 @@ BooleanSetting_AimAssist_Teams_false
 BooleanSetting_AimAssist_Invisibles_false
 BooleanSetting_AimAssist_Dead_false
 BooleanSetting_AimAssist_Only Sword_false
+Toggle_AutoGap_false
 Toggle_ClickGUI_false
 ModeSetting_ClickGUI_Mode_Rise 5.0 (Current)
 BooleanSetting_ClickGUI_Transparency_false
-BooleanSetting_ClickGUI_Animate Logo_false
 Toggle_Nametags_true
 Toggle_Chams_false
 NumberSetting_Chams_Red_255.0
@@ -165,10 +167,8 @@ BooleanSetting_Disabler_PacketSpectate_false
 BooleanSetting_Disabler_PacketResourcePacketStatus_false
 NumberSetting_Disabler_Laggy Amount_554.6
 Toggle_AutoTool_false
-Toggle_OPDisabler_false
-NumberSetting_OPDisabler_Delay_0.0
 Toggle_NameProtect_false
-Toggle_StreamerMode_false
+Toggle_Streamer_false
 Toggle_Blink_false
 BooleanSetting_Blink_AllPackets_true
 BooleanSetting_Blink_Pulse_false
@@ -187,7 +187,7 @@ BooleanSetting_Stealer_Random_true
 BooleanSetting_Stealer_Detect Gui_true
 BooleanSetting_Stealer_Auto Close_true
 BooleanSetting_Stealer_Hide Gui_true
-BooleanSetting_Stealer_Allow you to move your mouse whilst in the chest_true
+BooleanSetting_Stealer_Mouse Input_true
 Toggle_InvManager_true
 NumberSetting_InvManager_Min Delay_0.99
 NumberSetting_InvManager_Max Delay_1.0
@@ -242,6 +242,7 @@ NumberSetting_Timer_Timer Speed_0.9
 Toggle_Velocity_true
 ModeSetting_Velocity_Mode_Custom
 BooleanSetting_Velocity_Explosion_true
+BooleanSetting_Velocity_Only in air_false
 NumberSetting_Velocity_Horizontal_0.0
 NumberSetting_Velocity_Vertical_0.0
 NumberSetting_Velocity_Horizontal Attack_100.0
