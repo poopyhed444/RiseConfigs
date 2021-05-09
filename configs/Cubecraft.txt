@@ -127,7 +127,6 @@ BooleanSetting_Animations_Always Show_false
 Toggle_Ambiance_false
 NumberSetting_Ambiance_Time_16214.3
 Toggle_Spark_true
-Toggle_Glow_true
 Toggle_TargetHud_true
 Toggle_DamageColor_true
 NumberSetting_DamageColor_Red_255.0
