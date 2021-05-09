@@ -19,8 +19,8 @@ BooleanSetting_Derp_Headless_false
 BooleanSetting_Derp_Random_true
 NumberSetting_Derp_Constant Speed_180.0
 Toggle_Aura_false
-NumberSetting_Aura_Rotation Range_3.6
-NumberSetting_Aura_Range_3.6
+NumberSetting_Aura_Rotation Range_9.0
+NumberSetting_Aura_Range_3.2
 NumberSetting_Aura_Min CPS_8.98
 NumberSetting_Aura_Max CPS_16.200000000000003
 BooleanSetting_Aura_Use 1.9+ combat delay_false
@@ -64,8 +64,8 @@ NumberSetting_Fly_Redesky Speed_3.02
 NumberSetting_Fly_View Bobbing_0.0
 Toggle_Speed_false
 ModeSetting_Speed_Mode_Custom
-NumberSetting_Speed_Custom Speed_8.0
-NumberSetting_Speed_Custom MotionY_0.4
+NumberSetting_Speed_Custom Speed_0.6
+NumberSetting_Speed_Custom MotionY_0.0
 BooleanSetting_Speed_Abide Friciton_false
 BooleanSetting_Speed_Ground Disabler_false
 NumberSetting_Speed_Speed_1.8
@@ -126,9 +126,9 @@ ModeSetting_Animations_Animation_Whack
 NumberSetting_Animations_Slow_16.0
 BooleanSetting_Animations_Always Show_false
 Toggle_Ambiance_true
-NumberSetting_Ambiance_Time_0.0
+NumberSetting_Ambiance_Time_19664.145
 Toggle_Spark_false
-Toggle_Glow_false
+Toggle_Glow_true
 Toggle_TargetHud_false
 Toggle_DamageColor_false
 NumberSetting_DamageColor_Red_255.0
@@ -242,13 +242,13 @@ BooleanSetting_Scaffold_Jitter_false
 BooleanSetting_Scaffold_Pulse_true
 Toggle_Timer_false
 NumberSetting_Timer_Timer Speed_0.1
-Toggle_Velocity_true
+Toggle_Velocity_false
 ModeSetting_Velocity_Mode_Custom
 BooleanSetting_Velocity_Explosion_true
-BooleanSetting_Velocity_Only in air_false
-NumberSetting_Velocity_Horizontal_100.0
-NumberSetting_Velocity_Vertical_100.0
-BooleanSetting_Velocity_More Options_true
+BooleanSetting_Velocity_Only in air_true
+NumberSetting_Velocity_Horizontal_0.0
+NumberSetting_Velocity_Vertical_0.0
+BooleanSetting_Velocity_More Options_false
 NumberSetting_Velocity_Horizontal Attack_60.0
 NumberSetting_Velocity_Vertical Attack_100.0
 NumberSetting_Velocity_Timer_1.0
@@ -273,3 +273,6 @@ NumberSetting_AutoClicker_Min CPS_9.0
 NumberSetting_AutoClicker_Max CPS_13.8
 BooleanSetting_AutoClicker_Disable on Blocks_true
 Toggle_Eagle_false
+Toggle_BoatJump_false
+NumberSetting_BoatJump_Vertical Motion_0.72
+NumberSetting_BoatJump_Horizontal Motion_1.16
