@@ -23,9 +23,9 @@ BooleanSetting_Derp_Random_true
 NumberSetting_Derp_Constant Speed_180.0
 Toggle_Aura_false
 NumberSetting_Aura_Rotation Range_4.8
-NumberSetting_Aura_Range_3.3
-NumberSetting_Aura_Min CPS_3.09
-NumberSetting_Aura_Max CPS_9.74
+NumberSetting_Aura_Range_4.0
+NumberSetting_Aura_Min CPS_12.02
+NumberSetting_Aura_Max CPS_17.15
 BooleanSetting_Aura_Use 1.9+ combat delay_false
 NumberSetting_Aura_Delay_0.0
 NumberSetting_Aura_Max Rot_160.31
@@ -49,9 +49,10 @@ BooleanSetting_Aura_Invisibles_false
 BooleanSetting_Aura_Attack Dead_true
 BooleanSetting_Aura_Only Sword_false
 BooleanSetting_Aura_Target ESP_true
-BooleanSetting_Aura_Display Range_true
+BooleanSetting_Aura_Display Range_false
 Toggle_Sprint_true
 BooleanSetting_Sprint_All Directions_true
+BooleanSetting_Sprint_Only In Air_false
 Toggle_Fly_false
 ModeSetting_Fly_Fly Mode_Bow Longjump
 NumberSetting_Fly_Fly Speed_1.96
@@ -94,14 +95,24 @@ BooleanSetting_Speed_Y Port_true
 NumberSetting_Speed_Tick_5.0
 BooleanSetting_Speed_Strafe_true
 BooleanSetting_Speed_GroundSpoof_false
+BooleanSetting_Speed_Hide Jumps_false
+NumberSetting_Speed_Speed Multiplier No Speed_1.05
+NumberSetting_Speed_Speed Multiplier Speed 1_1.1
+NumberSetting_Speed_Speed Multiplier Speed 2_1.1
+NumberSetting_Speed_General Timer_1.07
+NumberSetting_Speed_SpeedInAir No Speed_0.02
+NumberSetting_Speed_SpeedInAir Speed 1_0.025
+NumberSetting_Speed_SpeedInAir Speed 2_0.03
+BooleanSetting_Speed_NCP YPort_false
+BooleanSetting_Speed_Revert to fastest on default config_false
 Toggle_Jesus_false
 ModeSetting_Jesus_Mode_Vanilla
-Toggle_NoSlow_false
+Toggle_NoSlow_true
 ModeSetting_NoSlow_Mode_Vanilla
 Toggle_PathTeleport_false
 BooleanSetting_PathTeleport_Record Path_false
 ModeSetting_PathTeleport_Playback on _teleport
-NumberSetting_PathTeleport_Speed_0.4
+NumberSetting_PathTeleport_Speed_7.8
 NumberSetting_PathTeleport_Ticks After Respawn_1.0
 NumberSetting_PathTeleport_Ticks After Teleport_1.0
 Toggle_LongJump_false
@@ -142,11 +153,6 @@ NumberSetting_Chams_Green_168.3
 NumberSetting_Chams_Blue_255.0
 NumberSetting_Chams_Alpha_149.2
 Toggle_ESP_true
-Toggle_ChestESP_false
-NumberSetting_ChestESP_Red_159.0
-NumberSetting_ChestESP_Green_24.0
-NumberSetting_ChestESP_Blue_242.0
-NumberSetting_ChestESP_Alpha_255.0
 Toggle_Animations_true
 ModeSetting_Animations_Animation_Forward
 NumberSetting_Animations_Slow_16.0
@@ -217,7 +223,7 @@ BooleanSetting_Stealer_Random_true
 BooleanSetting_Stealer_Detect Gui_true
 BooleanSetting_Stealer_Auto Close_true
 BooleanSetting_Stealer_Hide Gui_true
-BooleanSetting_Stealer_Mouse Input_true
+BooleanSetting_Stealer_Move head in chest_true
 Toggle_InvManager_true
 NumberSetting_InvManager_Min Delay_0.0
 NumberSetting_InvManager_Max Delay_7.930000000000001
@@ -250,22 +256,22 @@ BooleanSetting_AutoPot_Randomise Yaw_true
 Toggle_Scaffold_false
 ModeSetting_Scaffold_Tower_None
 ModeSetting_Scaffold_Rotations_Always
-ModeSetting_Scaffold_Allow Sprint_Spoof
+ModeSetting_Scaffold_Allow Sprint_Disallow
 ModeSetting_Scaffold_SameY_None
 ModeSetting_Scaffold_Move Fix_Normal
-NumberSetting_Scaffold_Timer_1.3
+NumberSetting_Scaffold_Timer_1.1
 BooleanSetting_Scaffold_Randomise Timer_true
-NumberSetting_Scaffold_Tower Timer_1.3
+NumberSetting_Scaffold_Tower Timer_1.1
 NumberSetting_Scaffold_Place Delay_1.0
 NumberSetting_Scaffold_Speed Multiplier_0.9750000000000001
-NumberSetting_Scaffold_Random_2.0700000000000003
+NumberSetting_Scaffold_Random_18.0
 NumberSetting_Scaffold_Expand_0.0
 BooleanSetting_Scaffold_Diagonal_true
-BooleanSetting_Scaffold_Safe Walk_true
-ModeSetting_Scaffold_Sneak_Eagle
+BooleanSetting_Scaffold_Safe Walk_false
+ModeSetting_Scaffold_Sneak_Silent
 BooleanSetting_Scaffold_Jitter_false
-BooleanSetting_Scaffold_Pulse_true
-BooleanSetting_Scaffold_Move Freely Whilst Towering_false
+BooleanSetting_Scaffold_Pulse_false
+BooleanSetting_Scaffold_Move Freely Whilst Towering_true
 Toggle_Timer_false
 NumberSetting_Timer_Timer Speed_0.2
 Toggle_Velocity_true
@@ -283,7 +289,7 @@ Toggle_Antibot_false
 Toggle_WTap_false
 BooleanSetting_WTap_Legit_false
 Toggle_Criticals_false
-ModeSetting_Criticals_Mode_Hypixel
+ModeSetting_Criticals_Mode_AAC4
 Toggle_FastBreak_true
 NumberSetting_FastBreak_Speed_0.3
 Toggle_Spammer_false
@@ -306,7 +312,7 @@ NumberSetting_BoatJump_Horizontal Motion_1.16
 Toggle_BedWalker_false
 Toggle_Crasher_false
 ModeSetting_Crasher_Mode_Pex
-Toggle_Breadcrumbs_false
+Toggle_Breadcrumbs_true
 BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_150.0
 Toggle_Radar_false
