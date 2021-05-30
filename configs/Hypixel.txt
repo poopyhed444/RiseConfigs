@@ -1,8 +1,8 @@
 Toggle_Interface_false
-ModeSetting_Interface_Theme_Rise Blend
+ModeSetting_Interface_Theme_Minecraft
 ModeSetting_Interface_List Animation_Rise
-NumberSetting_Interface_Red_0.0
-NumberSetting_Interface_Green_153.0
+NumberSetting_Interface_Red_159.0
+NumberSetting_Interface_Green_24.0
 NumberSetting_Interface_Blue_242.0
 BooleanSetting_Interface_Show Render Modules on List_true
 BooleanSetting_Interface_Smooth Hotbar_true
@@ -14,6 +14,7 @@ BooleanSetting_Interface_Keystrokes_true
 NumberSetting_Interface_KeystrokesX_92.5
 NumberSetting_Interface_KeystrokesY_78.5
 ModeSetting_Interface_Cape_Electric Sky
+BooleanSetting_Interface_Blur_true
 Toggle_TabGUI_true
 Toggle_AutoGap_false
 NumberSetting_AutoGap_Health_10.0
@@ -21,7 +22,7 @@ Toggle_Derp_false
 BooleanSetting_Derp_Headless_false
 BooleanSetting_Derp_Random_true
 NumberSetting_Derp_Constant Speed_180.0
-Toggle_Aura_false
+Toggle_Aura_true
 NumberSetting_Aura_Rotation Range_4.8
 NumberSetting_Aura_Range_4.0
 NumberSetting_Aura_Min CPS_12.02
@@ -51,7 +52,7 @@ BooleanSetting_Aura_Only Sword_false
 BooleanSetting_Aura_Target ESP_true
 BooleanSetting_Aura_Display Range_false
 Toggle_Sprint_true
-BooleanSetting_Sprint_All Directions_true
+BooleanSetting_Sprint_All Directions_false
 BooleanSetting_Sprint_Only In Air_false
 Toggle_Fly_false
 ModeSetting_Fly_Fly Mode_Bow Longjump
@@ -68,6 +69,10 @@ BooleanSetting_Fly_Smooth Camera_true
 NumberSetting_Fly_Redesky Speed_3.02
 NumberSetting_Fly_View Bobbing_0.0
 BooleanSetting_Fly_GroundSpoof_false
+NumberSetting_Fly_Speed_1.69
+NumberSetting_Fly_Friction Divider_19.0
+NumberSetting_Fly_Glide_0.03
+NumberSetting_Fly_Timer_0.6
 Toggle_Speed_false
 ModeSetting_Speed_Mode_Hypixel
 ModeSetting_Speed_GroundSpoof_Off
@@ -81,6 +86,7 @@ NumberSetting_Speed_Timer_1.1
 NumberSetting_Speed_Timer Random_0.0
 NumberSetting_Speed_GroundSpoof Ticks_10.0
 BooleanSetting_Speed_Abide Friciton_false
+BooleanSetting_Speed_Only Strafe On Ground_false
 BooleanSetting_Speed_Ground Disabler_false
 BooleanSetting_Speed_FastFall_true
 BooleanSetting_Speed_VoidTP_false
@@ -145,6 +151,7 @@ BooleanSetting_AimAssist_Invisibles_false
 BooleanSetting_AimAssist_Dead_false
 BooleanSetting_AimAssist_Only Sword_true
 Toggle_ClickGUI_false
+ModeSetting_ClickGUI_Theme_Alyssum Pink
 BooleanSetting_ClickGUI_Transparency_false
 Toggle_Nametags_false
 Toggle_Chams_false
@@ -154,13 +161,13 @@ NumberSetting_Chams_Blue_255.0
 NumberSetting_Chams_Alpha_149.2
 Toggle_ESP_true
 Toggle_Animations_true
-ModeSetting_Animations_Animation_Forward
+ModeSetting_Animations_Animation_Slide
 NumberSetting_Animations_Slow_16.0
-NumberSetting_Animations_X_1.7799999999999998
-NumberSetting_Animations_Y_0.5
-NumberSetting_Animations_Z_-2.0
+NumberSetting_Animations_X_0.020000000000000018
+NumberSetting_Animations_Y_0.2200000000000002
+NumberSetting_Animations_Z_0.0
 BooleanSetting_Animations_Reset Position_false
-BooleanSetting_Animations_Always Show_false
+BooleanSetting_Animations_Always Show_true
 Toggle_Ambiance_true
 NumberSetting_Ambiance_Time_0.0
 NumberSetting_Ambiance_Time Speed_0.0
@@ -202,8 +209,8 @@ BooleanSetting_Disabler_PacketClientStatus_false
 BooleanSetting_Disabler_PacketSpectate_false
 BooleanSetting_Disabler_PacketResourcePacketStatus_false
 Toggle_AutoTool_true
-Toggle_NameProtect_false
-Toggle_Streamer_false
+Toggle_NameProtect_true
+Toggle_Streamer_true
 Toggle_Blink_false
 BooleanSetting_Blink_AllPackets_true
 BooleanSetting_Blink_Pulse_true
@@ -217,13 +224,6 @@ Toggle_FastEat_false
 NumberSetting_FastEat_Speed_14.0
 Toggle_Insults_false
 ModeSetting_Insults_Mode_Normal
-Toggle_Stealer_true
-NumberSetting_Stealer_Delay_0.6
-BooleanSetting_Stealer_Random_true
-BooleanSetting_Stealer_Detect Gui_true
-BooleanSetting_Stealer_Auto Close_true
-BooleanSetting_Stealer_Hide Gui_true
-BooleanSetting_Stealer_Move head in chest_true
 Toggle_InvManager_true
 NumberSetting_InvManager_Min Delay_0.0
 NumberSetting_InvManager_Max Delay_7.930000000000001
@@ -248,7 +248,7 @@ BooleanSetting_Breaker_Bed_true
 BooleanSetting_Breaker_Nether Wart_false
 BooleanSetting_Breaker_Mineplex through walls_false
 Toggle_ClickTP_false
-Toggle_NoScoreboard_false
+Toggle_NoScoreboard_true
 Toggle_NoFall_false
 ModeSetting_NoFall_NoFall Mode_Artemis 2
 Toggle_AutoPot_true
@@ -259,9 +259,9 @@ ModeSetting_Scaffold_Rotations_Always
 ModeSetting_Scaffold_Allow Sprint_Disallow
 ModeSetting_Scaffold_SameY_None
 ModeSetting_Scaffold_Move Fix_Normal
-NumberSetting_Scaffold_Timer_1.1
-BooleanSetting_Scaffold_Randomise Timer_true
-NumberSetting_Scaffold_Tower Timer_1.1
+NumberSetting_Scaffold_Timer_1.0
+BooleanSetting_Scaffold_Randomise Timer_false
+NumberSetting_Scaffold_Tower Timer_1.0
 NumberSetting_Scaffold_Place Delay_1.0
 NumberSetting_Scaffold_Speed Multiplier_0.9750000000000001
 NumberSetting_Scaffold_Random_18.0
@@ -272,6 +272,7 @@ ModeSetting_Scaffold_Sneak_Silent
 BooleanSetting_Scaffold_Jitter_false
 BooleanSetting_Scaffold_Pulse_false
 BooleanSetting_Scaffold_Move Freely Whilst Towering_true
+BooleanSetting_Scaffold_Strafe_false
 Toggle_Timer_false
 NumberSetting_Timer_Timer Speed_0.2
 Toggle_Velocity_true
@@ -281,6 +282,8 @@ BooleanSetting_Velocity_Only in air_false
 NumberSetting_Velocity_Horizontal_0.0
 NumberSetting_Velocity_Vertical_0.0
 BooleanSetting_Velocity_More Options_false
+NumberSetting_Velocity_Delayed Horizontal_100.0
+NumberSetting_Velocity_Delayed Vertical_100.0
 NumberSetting_Velocity_Horizontal Attack_100.0
 NumberSetting_Velocity_Vertical Attack_100.0
 NumberSetting_Velocity_Timer_1.0
@@ -312,7 +315,15 @@ NumberSetting_BoatJump_Horizontal Motion_1.16
 Toggle_BedWalker_false
 Toggle_Crasher_false
 ModeSetting_Crasher_Mode_Pex
-Toggle_Breadcrumbs_true
+Toggle_Breadcrumbs_false
 BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_150.0
 Toggle_Radar_false
+NumberSetting_Radar_Radar X_78.0
+NumberSetting_Radar_RadarY_98.0
+Toggle_Stealer_true
+NumberSetting_Stealer_Min Delay_150.0
+NumberSetting_Stealer_Max Delay_210.0
+BooleanSetting_Stealer_Auto Close_true
+BooleanSetting_Stealer_Hide Gui_true
+BooleanSetting_Stealer_Move head in chest_true
