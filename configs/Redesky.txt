@@ -14,6 +14,7 @@ BooleanSetting_Interface_Keystrokes_false
 NumberSetting_Interface_KeystrokesX_4.5
 NumberSetting_Interface_KeystrokesY_53.5
 ModeSetting_Interface_Cape_Electric Sky
+BooleanSetting_Interface_Blur_true
 Toggle_TabGUI_true
 Toggle_AutoGap_false
 NumberSetting_AutoGap_Health_10.0
@@ -51,6 +52,8 @@ BooleanSetting_Aura_Only Sword_false
 BooleanSetting_Aura_Target ESP_true
 BooleanSetting_Aura_Display Range_false
 Toggle_Sprint_true
+BooleanSetting_Sprint_All Directions_false
+BooleanSetting_Sprint_Only In Air_false
 Toggle_Fly_false
 ModeSetting_Fly_Fly Mode_Redesky LJ Predicted
 NumberSetting_Fly_Fly Speed_3.48
@@ -65,6 +68,11 @@ ModeSetting_Fly_Vanilla Kick Bypass_Off
 BooleanSetting_Fly_Smooth Camera_true
 NumberSetting_Fly_Redesky Speed_4.02
 NumberSetting_Fly_View Bobbing_0.0
+BooleanSetting_Fly_GroundSpoof_false
+NumberSetting_Fly_Speed_1.69
+NumberSetting_Fly_Friction Divider_19.0
+NumberSetting_Fly_Glide_0.03
+NumberSetting_Fly_Timer_0.6
 Toggle_Speed_false
 ModeSetting_Speed_Mode_Redesky
 ModeSetting_Speed_GroundSpoof_Off
@@ -78,6 +86,7 @@ NumberSetting_Speed_Timer_1.7
 NumberSetting_Speed_Timer Random_10.0
 NumberSetting_Speed_GroundSpoof Ticks_0.0
 BooleanSetting_Speed_Abide Friciton_true
+BooleanSetting_Speed_Only Strafe On Ground_false
 BooleanSetting_Speed_Ground Disabler_false
 BooleanSetting_Speed_FastFall_true
 BooleanSetting_Speed_VoidTP_false
@@ -88,6 +97,20 @@ NumberSetting_Speed_Speed_1.8
 NumberSetting_Speed_Pulse_58.7
 NumberSetting_Speed_Speed Multiplier_1.1
 NumberSetting_Speed_Timer Boost_1.1
+BooleanSetting_Speed_Y Port_true
+NumberSetting_Speed_Tick_5.0
+BooleanSetting_Speed_Strafe_true
+BooleanSetting_Speed_GroundSpoof_false
+BooleanSetting_Speed_Hide Jumps_false
+NumberSetting_Speed_Speed Multiplier No Speed_1.05
+NumberSetting_Speed_Speed Multiplier Speed 1_1.1
+NumberSetting_Speed_Speed Multiplier Speed 2_1.1
+NumberSetting_Speed_General Timer_1.07
+NumberSetting_Speed_SpeedInAir No Speed_0.02
+NumberSetting_Speed_SpeedInAir Speed 1_0.025
+NumberSetting_Speed_SpeedInAir Speed 2_0.03
+BooleanSetting_Speed_NCP YPort_false
+BooleanSetting_Speed_Revert to fastest on default config_false
 Toggle_Jesus_false
 ModeSetting_Jesus_Mode_Vanilla
 Toggle_NoSlow_false
@@ -128,6 +151,7 @@ BooleanSetting_AimAssist_Invisibles_false
 BooleanSetting_AimAssist_Dead_false
 BooleanSetting_AimAssist_Only Sword_false
 Toggle_ClickGUI_false
+ModeSetting_ClickGUI_Theme_Rustic Desert
 BooleanSetting_ClickGUI_Transparency_false
 Toggle_Nametags_false
 Toggle_Chams_false
@@ -136,11 +160,6 @@ NumberSetting_Chams_Green_66.3
 NumberSetting_Chams_Blue_113.5
 NumberSetting_Chams_Alpha_255.0
 Toggle_ESP_true
-Toggle_ChestESP_false
-NumberSetting_ChestESP_Red_159.0
-NumberSetting_ChestESP_Green_24.0
-NumberSetting_ChestESP_Blue_242.0
-NumberSetting_ChestESP_Alpha_255.0
 Toggle_Animations_true
 ModeSetting_Animations_Animation_1.7
 NumberSetting_Animations_Slow_8.4
@@ -205,13 +224,6 @@ Toggle_FastEat_false
 NumberSetting_FastEat_Speed_20.0
 Toggle_Insults_true
 ModeSetting_Insults_Mode_Normal
-Toggle_Stealer_true
-NumberSetting_Stealer_Delay_0.8
-BooleanSetting_Stealer_Random_true
-BooleanSetting_Stealer_Detect Gui_true
-BooleanSetting_Stealer_Auto Close_true
-BooleanSetting_Stealer_Hide Gui_true
-BooleanSetting_Stealer_Mouse Input_true
 Toggle_InvManager_true
 NumberSetting_InvManager_Min Delay_10.89
 NumberSetting_InvManager_Max Delay_13.870000000000001
@@ -268,8 +280,10 @@ BooleanSetting_Velocity_Explosion_true
 BooleanSetting_Velocity_Only in air_false
 NumberSetting_Velocity_Horizontal_100.0
 NumberSetting_Velocity_Vertical_100.0
-BooleanSetting_Velocity_More Options_true
-NumberSetting_Velocity_Horizontal Attack_60.0
+BooleanSetting_Velocity_More Options_false
+NumberSetting_Velocity_Delayed Horizontal_100.0
+NumberSetting_Velocity_Delayed Vertical_100.0
+NumberSetting_Velocity_Horizontal Attack_100.0
 NumberSetting_Velocity_Vertical Attack_100.0
 NumberSetting_Velocity_Timer_1.0
 NumberSetting_Velocity_Timer Ticks_0.0
@@ -303,3 +317,12 @@ ModeSetting_Crasher_Mode_Pex
 Toggle_Breadcrumbs_false
 BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_15.0
+Toggle_Radar_false
+NumberSetting_Radar_Radar X_78.0
+NumberSetting_Radar_RadarY_98.0
+Toggle_Stealer_true
+NumberSetting_Stealer_Min Delay_5.0
+NumberSetting_Stealer_Max Delay_5.0
+BooleanSetting_Stealer_Auto Close_true
+BooleanSetting_Stealer_Hide Gui_true
+BooleanSetting_Stealer_Move head in chest_true
