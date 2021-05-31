@@ -15,14 +15,14 @@ NumberSetting_Interface_KeystrokesX_92.5
 NumberSetting_Interface_KeystrokesY_78.5
 ModeSetting_Interface_Cape_Electric Sky
 BooleanSetting_Interface_Blur_true
-Toggle_TabGUI_true
+Toggle_TabGUI_false
 Toggle_AutoGap_false
 NumberSetting_AutoGap_Health_10.0
 Toggle_Derp_false
 BooleanSetting_Derp_Headless_false
 BooleanSetting_Derp_Random_true
 NumberSetting_Derp_Constant Speed_180.0
-Toggle_Aura_true
+Toggle_Aura_false
 NumberSetting_Aura_Rotation Range_4.8
 NumberSetting_Aura_Range_4.0
 NumberSetting_Aura_Min CPS_12.02
@@ -55,7 +55,7 @@ Toggle_Sprint_true
 BooleanSetting_Sprint_All Directions_false
 BooleanSetting_Sprint_Only In Air_false
 Toggle_Fly_false
-ModeSetting_Fly_Fly Mode_Bow Longjump
+ModeSetting_Fly_Fly Mode_Hypixel
 NumberSetting_Fly_Fly Speed_1.96
 NumberSetting_Fly_Verus Speed_1.0
 NumberSetting_Fly_Up Amount_8.0
@@ -63,7 +63,7 @@ NumberSetting_Fly_H Boost first tick_0.5
 NumberSetting_Fly_V Boost first tick_0.6
 NumberSetting_Fly_H Boost second tick_0.9
 NumberSetting_Fly_V Boost second tick_0.6
-NumberSetting_Fly_Timer_1.1
+NumberSetting_Fly_Timer_0.6
 ModeSetting_Fly_Vanilla Kick Bypass_Off
 BooleanSetting_Fly_Smooth Camera_true
 NumberSetting_Fly_Redesky Speed_3.02
@@ -151,7 +151,7 @@ BooleanSetting_AimAssist_Invisibles_false
 BooleanSetting_AimAssist_Dead_false
 BooleanSetting_AimAssist_Only Sword_true
 Toggle_ClickGUI_false
-ModeSetting_ClickGUI_Theme_Alyssum Pink
+ModeSetting_ClickGUI_Theme_Rustic Desert
 BooleanSetting_ClickGUI_Transparency_false
 Toggle_Nametags_false
 Toggle_Chams_false
@@ -171,7 +171,7 @@ BooleanSetting_Animations_Always Show_true
 Toggle_Ambiance_true
 NumberSetting_Ambiance_Time_0.0
 NumberSetting_Ambiance_Time Speed_0.0
-Toggle_Spark_true
+Toggle_Spark_false
 Toggle_Glow_false
 Toggle_TargetHud_true
 Toggle_DamageColor_true
@@ -224,7 +224,7 @@ Toggle_FastEat_false
 NumberSetting_FastEat_Speed_14.0
 Toggle_Insults_false
 ModeSetting_Insults_Mode_Normal
-Toggle_InvManager_true
+Toggle_InvManager_false
 NumberSetting_InvManager_Min Delay_0.0
 NumberSetting_InvManager_Max Delay_7.930000000000001
 NumberSetting_InvManager_Start Delay_4.5
@@ -233,11 +233,11 @@ BooleanSetting_InvManager_Sort_true
 BooleanSetting_InvManager_Auto Armor_true
 BooleanSetting_InvManager_Random_true
 BooleanSetting_InvManager_Open Inv_false
-Toggle_NoVoid_false
+Toggle_NoVoid_true
 ModeSetting_NoVoid_NoVoid Mode_Predicted Novoid
-NumberSetting_NoVoid_Fall Distance_6.0
+NumberSetting_NoVoid_Fall Distance_2.975
 BooleanSetting_NoVoid_Check if above void_true
-BooleanSetting_NoVoid_Prediction Anticheat_false
+BooleanSetting_NoVoid_Prediction Anticheat_true
 Toggle_ChatBypass_false
 Toggle_SideOfBlockCollision_false
 Toggle_Breaker_false
@@ -267,7 +267,7 @@ NumberSetting_Scaffold_Speed Multiplier_0.9750000000000001
 NumberSetting_Scaffold_Random_18.0
 NumberSetting_Scaffold_Expand_0.0
 BooleanSetting_Scaffold_Diagonal_true
-BooleanSetting_Scaffold_Safe Walk_false
+BooleanSetting_Scaffold_Safe Walk_true
 ModeSetting_Scaffold_Sneak_Silent
 BooleanSetting_Scaffold_Jitter_false
 BooleanSetting_Scaffold_Pulse_false
@@ -321,7 +321,7 @@ NumberSetting_Breadcrumbs_Time_150.0
 Toggle_Radar_false
 NumberSetting_Radar_Radar X_78.0
 NumberSetting_Radar_RadarY_98.0
-Toggle_Stealer_true
+Toggle_Stealer_false
 NumberSetting_Stealer_Min Delay_150.0
 NumberSetting_Stealer_Max Delay_210.0
 BooleanSetting_Stealer_Auto Close_true
