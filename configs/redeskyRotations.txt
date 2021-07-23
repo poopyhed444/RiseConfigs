@@ -1,4 +1,4 @@
-Rise_Version_5.1
+Rise_Version_5.2
 Toggle_Interface_true
 ModeSetting_Interface_Theme_Skid
 ModeSetting_Interface_List Animation_Slide
