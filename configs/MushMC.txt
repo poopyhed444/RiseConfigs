@@ -1,4 +1,4 @@
-Rise_Version_5.1
+Rise_Version_5.2
 Toggle_Interface_true
 ModeSetting_Interface_Theme_Comfort Rainbow
 ModeSetting_Interface_List Animation_Rise
@@ -282,7 +282,7 @@ BooleanSetting_Breaker_Cake_false
 BooleanSetting_Breaker_Bed_true
 BooleanSetting_Breaker_Nether Wart_false
 BooleanSetting_Breaker_Mineplex through walls_false
-Toggle_ClickTP_true
+Toggle_ClickTP_false
 Toggle_NoScoreboard_false
 Toggle_NoFall_true
 ModeSetting_NoFall_NoFall Mode_MathGround
