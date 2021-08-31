@@ -25,7 +25,7 @@ BooleanSetting_Sprint_Only In Air_false
 Toggle_Sneak_false
 ModeSetting_Sneak_Mode_Always
 Toggle_Fly_false
-ModeSetting_Fly_Fly Mode_Vanilla
+ModeSetting_Fly_Fly Mode_Minemenclub
 ModeSetting_Fly_Mode_Stable
 NumberSetting_Fly_Mode_1.0
 BooleanSetting_Fly_Auto Rebow_false
