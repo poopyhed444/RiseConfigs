@@ -30,7 +30,7 @@ Toggle_Sneak_false
 ModeSetting_Sneak_Mode_Always
 Bind_Sneak_0
 Toggle_Fly_false
-ModeSetting_Fly_Fly Mode_Old NCP
+ModeSetting_Fly_Fly Mode_Bow Fly
 ModeSetting_Fly_Mode_Stable
 NumberSetting_Fly_Mode_1.0
 BooleanSetting_Fly_Auto Rebow_false
@@ -45,7 +45,7 @@ NumberSetting_Fly_MultiplierInAir_1.07
 NumberSetting_Fly_Glide_0.03
 NumberSetting_Fly_Timer Speed_1.0
 NumberSetting_Fly_Timer_0.6
-ModeSetting_Fly_Vanilla Kick Bypass_Delay
+ModeSetting_Fly_Vanilla Kick Bypass_Constant
 BooleanSetting_Fly_Smooth Camera_false
 NumberSetting_Fly_View Bobbing_0.062
 BooleanSetting_Fly_GroundSpoof_false
@@ -87,10 +87,10 @@ NumberSetting_Speed_Tick_5.0
 BooleanSetting_Speed_GroundSpoof_false
 BooleanSetting_Speed_Hide Jumps_false
 BooleanSetting_Speed_Damage Boost_true
-NumberSetting_Speed_Speed Multiplier No Speed_1.07
+NumberSetting_Speed_Speed Multiplier No Speed_1.15
 NumberSetting_Speed_Speed Multiplier Speed 1_1.1
 NumberSetting_Speed_Speed Multiplier Speed 2_1.1
-NumberSetting_Speed_General Timer_1.07
+NumberSetting_Speed_General Timer_1.2
 NumberSetting_Speed_SpeedInAir No Speed_0.02
 NumberSetting_Speed_SpeedInAir Speed 1_0.025
 NumberSetting_Speed_SpeedInAir Speed 2_0.03
@@ -137,17 +137,17 @@ ModeSetting_Step_Mode_Normal
 NumberSetting_Step_Height_1.5
 Bind_Step_0
 Toggle_Phase_false
-ModeSetting_Phase_Mode_Normal
+ModeSetting_Phase_Mode_Clip
 ModeSetting_Phase_Hypixel Mode_Auto
 ModeSetting_Phase_Teleport Mode_Player
 ModeSetting_Phase_Direction_Down
 BooleanSetting_Phase_Sneak Only_true
-Bind_Phase_50
+Bind_Phase_25
 Toggle_Blink_false
 BooleanSetting_Blink_AllPackets_false
 BooleanSetting_Blink_Pulse_false
 NumberSetting_Blink_Pulse Delay_4.0
-Bind_Blink_35
+Bind_Blink_0
 Toggle_Spider_false
 ModeSetting_Spider_Mode_Collide
 NumberSetting_Spider_Speed_0.2
@@ -182,7 +182,7 @@ NumberSetting_Aura_Range_4.5
 NumberSetting_Aura_Rotation Range_5.2
 NumberSetting_Aura_Extended Range_7.0
 BooleanSetting_Aura_Extended Range_false
-NumberSetting_Aura_Min CPS_9.0
+NumberSetting_Aura_Min CPS_8.6
 NumberSetting_Aura_Max CPS_11.5
 NumberSetting_Aura_Max Targets_2.0
 NumberSetting_Aura_Predict_1.3
@@ -197,7 +197,7 @@ NumberSetting_Aura_Sin Speed_180.0
 BooleanSetting_Aura_Pitch Fix_false
 NumberSetting_Aura_Min Pitch Fix_3.0
 NumberSetting_Aura_Max Pitch Fix_9.0
-BooleanSetting_Aura_Raytrace_true
+BooleanSetting_Aura_Raytrace_false
 BooleanSetting_Aura_Realistic Swings_false
 BooleanSetting_Aura_Through Walls_true
 BooleanSetting_Aura_Silent Rotations_true
@@ -248,8 +248,8 @@ NumberSetting_Velocity_Timer Ticks_0.0
 NumberSetting_Velocity_Ticks_3.0
 Bind_Velocity_0
 Toggle_TargetStrafe_true
-BooleanSetting_TargetStrafe_Space_true
-NumberSetting_TargetStrafe_Range_2.5
+BooleanSetting_TargetStrafe_Space_false
+NumberSetting_TargetStrafe_Range_3.2
 Bind_TargetStrafe_0
 Toggle_FastBow_false
 NumberSetting_FastBow_Power_3.0
@@ -276,7 +276,7 @@ Bind_FightBot_0
 Toggle_Antibot_true
 Bind_Antibot_0
 Toggle_WTap_true
-BooleanSetting_WTap_Legit_true
+BooleanSetting_WTap_Legit_false
 Bind_WTap_0
 Toggle_Criticals_true
 ModeSetting_Criticals_Mode_Jump
@@ -326,7 +326,7 @@ BooleanSetting_InvManager_Open Inv_true
 BooleanSetting_InvManager_Keep Armor_false
 BooleanSetting_InvManager_Only When Standing Still_false
 Bind_InvManager_38
-Toggle_ChestAura_false
+Toggle_ChestAura_true
 NumberSetting_ChestAura_Range_5.0
 Bind_ChestAura_0
 Toggle_Stealer_true
@@ -357,16 +357,16 @@ Bind_NoVoid_0
 Toggle_NoFall_true
 ModeSetting_NoFall_NoFall Mode_Hypixel
 Bind_NoFall_0
-Toggle_Scaffold_true
+Toggle_Scaffold_false
 ModeSetting_Scaffold_Tower_NCP
-ModeSetting_Scaffold_Rotations_Smooth
+ModeSetting_Scaffold_Rotations_Always
 ModeSetting_Scaffold_Allow Sprint_Allow
 ModeSetting_Scaffold_Speed Mode_None
 ModeSetting_Scaffold_SameY_None
 ModeSetting_Scaffold_Move Fix_None
 NumberSetting_Scaffold_Speed Up Time_1.2
 NumberSetting_Scaffold_Place Delay_0.0
-BooleanSetting_Scaffold_Randomise Place Delay_false
+BooleanSetting_Scaffold_Randomise Place Delay_true
 NumberSetting_Scaffold_Speed Multiplier_1.0
 NumberSetting_Scaffold_Random_4.8
 NumberSetting_Scaffold_Expand_0.0
@@ -375,9 +375,9 @@ ModeSetting_Scaffold_Sneak_Silent
 BooleanSetting_Scaffold_Jitter_false
 BooleanSetting_Scaffold_Blink_false
 BooleanSetting_Scaffold_Move Freely Whilst Towering_true
-BooleanSetting_Scaffold_Strafe_true
+BooleanSetting_Scaffold_Strafe_false
 BooleanSetting_Scaffold_Check if looking at block_true
-BooleanSetting_Scaffold_Ignore Speed_true
+BooleanSetting_Scaffold_Ignore Speed_false
 BooleanSetting_Scaffold_Swing_true
 Bind_Scaffold_34
 Toggle_FastBreak_false
@@ -437,7 +437,7 @@ BooleanSetting_Disabler_Void Tp_false
 BooleanSetting_Disabler_Clip_false
 BooleanSetting_Disabler_Tecnio AC Disabler_false
 BooleanSetting_Disabler_Covert Moving Packets_false
-BooleanSetting_Disabler_Funcraft_true
+BooleanSetting_Disabler_Funcraft_false
 BooleanSetting_Disabler_PacketInput_false
 BooleanSetting_Disabler_ConfirmTransaction_false
 BooleanSetting_Disabler_PacketKeepAlive_false
@@ -449,11 +449,11 @@ BooleanSetting_Disabler_PacketResourcePacketStatus_false
 Bind_Disabler_0
 Toggle_AutoAuthme_false
 Bind_AutoAuthme_0
-Toggle_NoRot_false
+Toggle_NoRot_true
 ModeSetting_NoRot_Mode_Legit
 Bind_NoRot_0
 Toggle_Insults_true
-ModeSetting_Insults_Mode_Normal
+ModeSetting_Insults_Mode_Sigma
 Bind_Insults_0
 Toggle_ChatBypass_true
 Bind_ChatBypass_0
@@ -471,8 +471,8 @@ BooleanSetting_AutoGroomer_DM Messages_true
 BooleanSetting_AutoGroomer_Spam_true
 Bind_AutoGroomer_0
 Toggle_Timer_false
-NumberSetting_Timer_Timer Speed_1.3
-ModeSetting_Timer_Mode_MMC
+NumberSetting_Timer_Timer Speed_10.0
+ModeSetting_Timer_Mode_Vanilla
 Bind_Timer_0
 Toggle_Spammer_false
 NumberSetting_Spammer_Delay_50.0
@@ -481,8 +481,8 @@ Bind_Spammer_0
 Toggle_Crasher_false
 ModeSetting_Crasher_Mode_Pex
 Bind_Crasher_0
-Toggle_PingSpoof_false
-NumberSetting_PingSpoof_Delay_10.0
+Toggle_PingSpoof_true
+NumberSetting_PingSpoof_Delay_310.0
 BooleanSetting_PingSpoof_KeepAlives_true
 BooleanSetting_PingSpoof_Transations_true
 Bind_PingSpoof_0
@@ -585,7 +585,7 @@ NumberSetting_Breadcrumbs_Time_150.0
 Bind_Breadcrumbs_0
 Toggle_Radar_true
 NumberSetting_Radar_Radar X_0.0
-NumberSetting_Radar_Radar Y_49.0
+NumberSetting_Radar_Radar Y_46.0
 Bind_Radar_0
 Toggle_Blur_true
 BooleanSetting_Blur_Interfaces_true
