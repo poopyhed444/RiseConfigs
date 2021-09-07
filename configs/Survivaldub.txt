@@ -33,10 +33,10 @@ BooleanSetting_Derp_Twerk_true
 Bind_Derp_0
 Toggle_Aura_true
 NumberSetting_Aura_Range_4.5
-NumberSetting_Aura_Random_9.09
-NumberSetting_Aura_Predict_1.48
+NumberSetting_Aura_Random_4.20
+NumberSetting_Aura_Predict_1.30
 NumberSetting_Aura_Min CPS_9.0
-NumberSetting_Aura_Max CPS_12.2
+NumberSetting_Aura_Max CPS_12.5
 ModeSetting_Aura_CPS Mode_Old
 ModeSetting_Aura_Update Mode_Strafe
 BooleanSetting_Aura_Use 1.9+ combat delay_false
@@ -45,8 +45,8 @@ ModeSetting_Aura_Type_Switch
 ModeSetting_Aura_Sorting Mode_Distance
 NumberSetting_Aura_Switch Delay_500.0
 ModeSetting_Aura_Rotation Mode_Custom
-NumberSetting_Aura_Max Rot_56.49
-NumberSetting_Aura_Min Rot_35.01
+NumberSetting_Aura_Max Rot_37.49
+NumberSetting_Aura_Min Rot_24.50
 ModeSetting_Aura_Block Mode_Hypixel
 BooleanSetting_Aura_Raycast_false
 BooleanSetting_Aura_Thru Walls_true
