@@ -45,7 +45,7 @@ NumberSetting_Fly_MultiplierInAir_1.07
 NumberSetting_Fly_Glide_0.03
 NumberSetting_Fly_Timer Speed_1.0
 NumberSetting_Fly_Timer_0.6
-ModeSetting_Fly_Vanilla Kick Bypass_Constant
+ModeSetting_Fly_Vanilla Kick Bypass_Off
 BooleanSetting_Fly_Smooth Camera_false
 NumberSetting_Fly_View Bobbing_0.062
 BooleanSetting_Fly_GroundSpoof_false
@@ -175,30 +175,30 @@ NumberSetting_AutoHead_Max Delay_500.0
 Bind_AutoHead_0
 Toggle_Aura_true
 ModeSetting_Aura_Mode_Single
-ModeSetting_Aura_Rotation Mode_Custom Simple
-ModeSetting_Aura_Block Mode_Fake
-ModeSetting_Aura_Sorting Mode_Hurttime
-NumberSetting_Aura_Range_4.5
+ModeSetting_Aura_Rotation Mode_Smooth
+ModeSetting_Aura_Block Mode_AAC
+ModeSetting_Aura_Sorting Mode_Distance
+NumberSetting_Aura_Range_4.4
 NumberSetting_Aura_Rotation Range_5.2
 NumberSetting_Aura_Extended Range_7.0
 BooleanSetting_Aura_Extended Range_false
-NumberSetting_Aura_Min CPS_8.6
-NumberSetting_Aura_Max CPS_11.5
+NumberSetting_Aura_Min CPS_8.2
+NumberSetting_Aura_Max CPS_10.9
 NumberSetting_Aura_Max Targets_2.0
-NumberSetting_Aura_Predict_1.3
-NumberSetting_Aura_Random_4.2
-NumberSetting_Aura_Max Rot_56.49
-NumberSetting_Aura_Min Rot_33.22
+NumberSetting_Aura_Predict_1.52
+NumberSetting_Aura_Random_10.35
+NumberSetting_Aura_Max Rot_180.0
+NumberSetting_Aura_Min Rot_140.62
 NumberSetting_Aura_Min Yaw Rot_180.0
 NumberSetting_Aura_Max Yaw Rot_180.0
 NumberSetting_Aura_Max Pitch Rot_180.0
 NumberSetting_Aura_Max Pitch Rot_180.0
-NumberSetting_Aura_Sin Speed_180.0
+NumberSetting_Aura_Sin Speed_173.74
 BooleanSetting_Aura_Pitch Fix_false
 NumberSetting_Aura_Min Pitch Fix_3.0
 NumberSetting_Aura_Max Pitch Fix_9.0
 BooleanSetting_Aura_Raytrace_false
-BooleanSetting_Aura_Realistic Swings_false
+BooleanSetting_Aura_Realistic Swings_true
 BooleanSetting_Aura_Through Walls_true
 BooleanSetting_Aura_Silent Rotations_true
 BooleanSetting_Aura_Keep Sprint_true
@@ -210,7 +210,7 @@ BooleanSetting_Aura_Non Players_true
 BooleanSetting_Aura_Ignore Teammates_false
 BooleanSetting_Aura_Invisibles_true
 BooleanSetting_Aura_Attack Dead_true
-BooleanSetting_Aura_Ignore NPCs_true
+BooleanSetting_Aura_Ignore NPCs_false
 BooleanSetting_Aura_Target ESP_true
 BooleanSetting_Aura_Display Range_false
 BooleanSetting_Aura_Disable On World Change_true
@@ -232,7 +232,7 @@ Bind_TPAura_0
 Toggle_BackTrack_false
 NumberSetting_BackTrack_Amount_20.0
 Bind_BackTrack_0
-Toggle_Velocity_false
+Toggle_Velocity_true
 ModeSetting_Velocity_Mode_Custom
 BooleanSetting_Velocity_Explosion_true
 BooleanSetting_Velocity_Only in air_false
@@ -326,7 +326,7 @@ BooleanSetting_InvManager_Open Inv_true
 BooleanSetting_InvManager_Keep Armor_false
 BooleanSetting_InvManager_Only When Standing Still_false
 Bind_InvManager_38
-Toggle_ChestAura_true
+Toggle_ChestAura_false
 NumberSetting_ChestAura_Range_5.0
 Bind_ChestAura_0
 Toggle_Stealer_true
@@ -364,7 +364,7 @@ ModeSetting_Scaffold_Allow Sprint_Allow
 ModeSetting_Scaffold_Speed Mode_None
 ModeSetting_Scaffold_SameY_None
 ModeSetting_Scaffold_Move Fix_None
-NumberSetting_Scaffold_Speed Up Time_1.2
+NumberSetting_Scaffold_Speed Up Time_1.1
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_true
 NumberSetting_Scaffold_Speed Multiplier_1.0
@@ -449,7 +449,7 @@ BooleanSetting_Disabler_PacketResourcePacketStatus_false
 Bind_Disabler_0
 Toggle_AutoAuthme_false
 Bind_AutoAuthme_0
-Toggle_NoRot_true
+Toggle_NoRot_false
 ModeSetting_NoRot_Mode_Legit
 Bind_NoRot_0
 Toggle_Insults_true
@@ -481,7 +481,7 @@ Bind_Spammer_0
 Toggle_Crasher_false
 ModeSetting_Crasher_Mode_Pex
 Bind_Crasher_0
-Toggle_PingSpoof_true
+Toggle_PingSpoof_false
 NumberSetting_PingSpoof_Delay_310.0
 BooleanSetting_PingSpoof_KeepAlives_true
 BooleanSetting_PingSpoof_Transations_true
@@ -584,8 +584,8 @@ BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_150.0
 Bind_Breadcrumbs_0
 Toggle_Radar_true
-NumberSetting_Radar_Radar X_2.0
-NumberSetting_Radar_Radar Y_46.0
+NumberSetting_Radar_Radar X_0.0
+NumberSetting_Radar_Radar Y_45.0
 Bind_Radar_0
 Toggle_Blur_true
 BooleanSetting_Blur_Interfaces_true
